@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda de Contatos</title>
+  <link rel="stylesheet" href="./sytle.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Contact Book</h1>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" required>
+      <button type="submit">Register</button>
+    </form>
+    <table id="contactTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>`
+        <!-- Contact rows will be added dynamically here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="agenda.js"></script>
+
+</body>
+
+</html>
